@@ -1,0 +1,25 @@
+.transaction_history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title_name {
+  width: 290px;
+  background: dimgrey;
+  color: burlywood;
+}
+.title_items {
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.t_items {
+  width: 290px;
+  background: aliceblue;
+}
+
+.items_children td {
+  padding: 10px;
+  width: 90px;
+}
