@@ -5,23 +5,3 @@
   flex-direction: column;
   gap: 10px;
 }
-.item {
-  position: relative;
-  width: 75px;
-  text-align: center;
-  border-radius: 10px;
-  background: aliceblue;
-}
-.status {
-  position: relative;
-  top: 50px;
-  left: 56px;
-  display: block;
-  border-radius: 50%;
-  width: 10px;
-  height: 10px;
-}
-.avatar {
-}
-.name {
-}
