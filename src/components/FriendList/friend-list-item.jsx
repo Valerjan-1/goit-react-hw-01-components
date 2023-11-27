@@ -1,5 +1,4 @@
 import css from './friend-item.module.css';
-import friends from './friends.json';
 
 const FriendListItem = ({ id, name, avatar, status }) => {
   return (
