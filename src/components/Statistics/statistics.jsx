@@ -1,10 +1,10 @@
 import css from './Statistics.module.css';
 
-const Statistics = ({ stats }) => {
+const Statistics = ({ title, stats }) => {
+  console.log(title);
   return (
     <section className={css.statistics}>
-      <h2 className={css.title}>Upload stats</h2>
-
+      {title ? <h2 className={css.title}>UPLOAD STATS</h2> : <></>}
       <ul className={css.stat_list}>
         {stats.map(stat => {
           return (
